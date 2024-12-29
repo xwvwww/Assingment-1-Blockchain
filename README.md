@@ -91,10 +91,11 @@ contract EtherVault {
 - Deploy to Public Testnet: After connecting Remix to MetaMask, use Injected Web3 to deploy the contract to a public testnet.
 
 
-## Installation
+## Note: Web3.js Library Setup (Not Configured in This Assignment)
 
-Install my-project with npm
-- Install Web3.js
+This project does not require configuring Web3.js or installing the Web3.js library. It uses Remix IDE for deploying, testing, and interacting with the smart contract, meaning you won't need to set up Web3.js or connect to external environments through JavaScript.
+
+However, if you decide to integrate this contract into a frontend application or interact with it from a Node.js environment in the future, you'll need to:
 ```bash
   npm install web3
 ```
